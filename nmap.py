@@ -8,5 +8,3 @@ def get_nmap(options, ip):
     process = os.popen(command) # starts another process. (like typing a new command on terminal)
     results = str(process.read())
     return results
-
-print get_nmap('', '216.58.197.46')
