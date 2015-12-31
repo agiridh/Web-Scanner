@@ -9,4 +9,4 @@ def create_dir(directory):
 def write_file(path, data):
     f = open(path, 'w')
     f.write(data)
-    f.close
+    f.close()
