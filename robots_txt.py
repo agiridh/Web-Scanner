@@ -1,5 +1,5 @@
 from urllib2 import urlopen
-import io
+#import io
 
 # scans and prints the robots.txt of a webpage
 # if the url provided by the user does not have a '/', the function adds it
