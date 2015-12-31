@@ -1,0 +1,12 @@
+
+Starting Nmap 7.00 ( https://nmap.org ) at 2015-12-31 18:44 IST
+Nmap scan report for reddit.com (198.41.209.138)
+Host is up (0.40s latency).
+Not shown: 96 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 12.91 seconds

@@ -4,6 +4,7 @@ import os
 # print get_nmap('-F', '216.58.197.46')
 # google nmap for more nmap flags. -F is does a fast scan
 def get_nmap(options, ip):
+    print "Doing the nmap scan..."
     command = 'nmap ' + options + ' ' + ip
     process = os.popen(command) # starts another process. (like typing a new command on terminal)
     results = str(process.read())

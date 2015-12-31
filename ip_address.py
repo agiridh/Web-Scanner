@@ -10,6 +10,7 @@ import socket # This module provides access to the BSD socket interface
 #   results = str(process.read())
 #   marker = results.find('has address') + 12
 #   return results[marker:].splitlines()[0]
-def get_ip_address(url):
-    ip_addr = socket.gethostbyname(url)
+def get_ip_address(domain_name):
+    print "Obtaining the ip address of the website..."
+    ip_addr = socket.gethostbyname(domain_name)
     return ip_addr

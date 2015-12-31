@@ -7,6 +7,7 @@ from urllib2 import urlopen
 # Since this was built using python 2.7, urllib2 is used instead of
 # importing requests from urllib (used in python 3)
 def get_robots_txt(url):
+    print "Scanning for robots.txt..."
     if url.endswith('/'):
         path = url
     else:
